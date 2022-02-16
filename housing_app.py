@@ -9,7 +9,7 @@ def my_select_callback():
             f"Selected {select_event.row} (row) / {select_event.column} (column) with value: {select_event.value}"
         )
 
-st.title('Housing Charts :house:')
+st.title('Housing Charts for Metro Areas :house:')
 
 sales_cnt = pd.read_csv('housing_data/sales_count_month.csv')
 median_price_cut = pd.read_csv('housing_data/med_price_cut_perc_week.csv')
